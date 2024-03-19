@@ -1,3 +1,6 @@
-Printt("Hello World")
-def functi()
+print("Hello World")
+
+def functi():
     print("hai")
+
+functi()

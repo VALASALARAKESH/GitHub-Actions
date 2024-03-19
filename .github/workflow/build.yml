@@ -1,0 +1,10 @@
+name: CI
+on:
+  push:
+    branches: -main
+jobs:
+  build:
+    run-on: ubuntu-latest
+    steps:
+      - name: run test
+        run: python test.py
